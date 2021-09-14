@@ -5,6 +5,7 @@ import PictureGrid from './PictureGrid'
 import Contact from "./Contact";
 import Navbar from './Navbar'
 import Cta from './Cta'
+import Section from "./Section";
 
 const GlobalStyle = createGlobalStyle`
   *, *::before, *::after{
@@ -24,7 +25,7 @@ function App() {
       <GlobalStyle/>
       <Navbar/>
       <Cta/>
-      
+      <Section/>
     </div>
   );
 }
