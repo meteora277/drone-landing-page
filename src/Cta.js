@@ -4,6 +4,7 @@ import Drone from "./assets/drone.png";
 import Shadow from "./assets/blur.png";
 
 const StyledBg = styled.div`
+  max-width:1440px;
   display: grid;
   position: absolute;
   z-index: -10;

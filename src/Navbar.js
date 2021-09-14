@@ -2,22 +2,26 @@ import React from "react";
 import styled from "styled-components";
 
 const Nav = styled.nav`
+  
   font-weight: normal;
+  width:100%;
+  max-width:1440px;
+  padding-left: clamp(0%, 10%, 143px);
+  padding-right: 10%;
   font-size: 24px;
   line-height: 91.6%;
+
   color:white;
   list-style-type:none;
   display:flex;
   position:absolute;
-  width: 80%;
   justify-content: space-between;  
-  margin-right: 10%;
-  margin-left: 10%;
 
 `;
 
 const LinkContainer = styled.div`
   display:flex;
+
 `
 
 const NavItem = styled.li`

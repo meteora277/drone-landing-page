@@ -14,6 +14,7 @@ const StyledSection = styled.section`
 `
 
 const Background = styled.div`
+    height: 740px;
     ${props => props.overlay && css`
     position: absolute;
     grid-area:left;

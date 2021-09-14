@@ -8,7 +8,6 @@ import image_5 from "./assets/footage-5.jpg";
 
 const Grid = styled.section`
   position: absolute;
-  right: 0;
   ${(props) => props.size && `width: ${props.size};`}
   ${(props) => props.size && `height: ${props.size};`}
   display: grid;
@@ -21,7 +20,7 @@ const Grid = styled.section`
 `;
 
 Grid.defaultProps = {
-  size: "300px",
+  size: "843px",
 };
 
 const Image = styled.div`
