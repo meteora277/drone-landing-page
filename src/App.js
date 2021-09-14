@@ -13,8 +13,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   html{
+    @media(min-width: 1440px){
+    background: black;
     display:flex;
     justify-content:center;
+    }
   }
   body{
     max-width: 1440px;

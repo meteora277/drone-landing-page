@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import PictureGrid from './PictureGrid';
 
 const Section = styled.div`
+    background: white;
     height: 52.6rem;
     padding: 8.9rem 10%;
     margin: 0;
@@ -21,12 +22,13 @@ const Header = styled.header`
 
 `
 const P = styled.p`
+    font-family: 'Montserrat', sans-serif;
     width: 24.5rem;
     font-size: 24px;
     line-height: 141.6%;
 `
 const Image = styled.div`
-    transform:translateY(-281px)
+    transform:translateY(-281px);
 `
 
 function LastYear(){

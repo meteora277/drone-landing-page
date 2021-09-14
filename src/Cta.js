@@ -29,6 +29,7 @@ const CtaHeader = styled.div`
   line-height: 91.6%;
 `;
 const CtaDescription = styled.div`
+  font-family: Montserrat;
   font-size: 24px;
   line-height: 141.6%;
 `;

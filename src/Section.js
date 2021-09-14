@@ -11,33 +11,34 @@ const StyledSection = styled.section`
     grid-template-areas:
     ". left";
     height: 740px;
+    background:white;
 `
 
 const Background = styled.div`
     height: 740px;
     ${props => props.overlay && css`
     position: absolute;
-    grid-area:left;
     top:0;
     bottom:0;
     left: 0;
     right:0;
+    grid-area:left;
     background-color: rgba(48, 56, 83, 0.8);
     `}
     ${props => props.image && css`
-    grid-area: left;
     background-image: url(${stadium});
     background-size:cover;
+    grid-area: left;
 
     `}    
 `
 const Content = styled.p`
 
-    grid-area:left;
     position:relative;
-    margin: 0 11.75rem;
     z-index: 10;
     height:100%;
+    margin: 0 11.75rem;
+    grid-area:left;
     display:flex;
     flex-direction:column;
     justify-content:center;
