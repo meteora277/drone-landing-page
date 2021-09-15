@@ -37,18 +37,27 @@ const Content = styled.p`
     position:relative;
     z-index: 10;
     height:100%;
-    margin: 0 11.75rem;
+    margin:0;
+    padding: 0 11.75rem;
     grid-area:left;
     display:flex;
     flex-direction:column;
     justify-content:center;
 
-    
+    @media(max-width:800px){
+
+        padding:3rem;
+    }
 `
 const P = styled.p`
     color:white;
     font-size: 54px;
-    line-height: 99.6%; 
+    line-height: 99.6%;
+
+    @media(max-width:800px){
+        
+        ${props => props.main && "font-size: 45px; "};
+    }
     
     ${props => props.left && css`
     font-size: 25px;
@@ -64,7 +73,7 @@ function Section(){
             <Background image>
                 <Background overlay/>
                 <Content>
-                <P>“the stadium is simply unreal. scrimba hall will make this the best drone racing event ever, period.”</P>
+                <P main>“the stadium is simply unreal. scrimba hall will make this the best drone racing event ever, period.”</P>
                 <P left>anonymous guy</P>
                 </Content>
             </Background>

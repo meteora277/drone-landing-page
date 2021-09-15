@@ -11,16 +11,16 @@ const Section = styled.section`
   display: flex;
 `;
 const Header = styled.header`
+  max-width: 43rem;
+  height: 8.3rem;
+  font-size: 64px;
+  line-height: 91.6%;
+  white-space: nowrap;
   padding-left: 10%;
   padding-right: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-size: 64px;
-  white-space: nowrap;
-  line-height: 91.6%;
-  max-width: 43rem;
-  height: 8.3rem;
   background: rgba(159, 200, 140, 1);
 `;
 
@@ -38,15 +38,15 @@ const Input = styled.input`
   font-family: Bebas Neue;
 `
 const Button = styled.button`
-  width:40.5rem;
   font-family: Bebas Neue;
-  background: black;
-  color: white;
-  border:none;
-  height: 5.8rem;
-  margin-top: 3.6rem;
   font-size: 35px;
   line-height: 91.6%;
+  color: white;
+  background: black;
+  width:40.5rem;
+  height: 5.8rem;
+  margin-top: 3.6rem;
+  border:none;
 `
 const Label = styled.label`
   font-size: 32px;
